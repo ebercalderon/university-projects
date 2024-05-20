@@ -1,0 +1,20 @@
+# Java class files
+*.class
+
+# Compiled output
+/out/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/
+build/
+
+# VS Code
+.vscode/
