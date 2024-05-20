@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="835.0" prefWidth="1195.0" style="-fx-background-color: #fff;" styleClass="main-dash" stylesheets="@../../assets/styles/vendor.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="87.0" layoutY="113.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="196.0" layoutX="67.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="149.0" prefHeight="135.0" prefWidth="282.0" text="Puede comprobar el estado de sus vuelos en tiempo real para estar siempre al tanto de las posibles recomendaciones" textAlignment="CENTER" wrapText="true" />
+         </children></Pane>
+      <Separator layoutY="57.0" prefHeight="9.0" prefWidth="1195.0" />
+      <Label layoutX="42.0" layoutY="14.0" styleClass="menu-label" text="Inicio del sistema aeroportuario" />
+      <Pane layoutX="87.0" layoutY="481.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="118.0" fitWidth="165.0" layoutX="66.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="135.0" prefHeight="148.0" prefWidth="282.0" text="Revisa las medidas que te damos para facilitar la calificación a las categorías Premium Pass durante 2022 para que puedas mantener tu membresía." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="450.0" layoutY="113.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="196.0" layoutX="81.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/7.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="151.0" prefHeight="135.0" prefWidth="282.0" text="Cuando elige volar con nosotros, le acompañamos en cada etapa." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="807.0" layoutY="113.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="196.0" layoutX="72.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/4.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="145.0" prefHeight="148.0" prefWidth="282.0" text="Entendemos que los planes cambian. Puede cancelar su vuelo, reprogramarlo o si quiere posponer su viaje." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="449.0" layoutY="481.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="118.0" fitWidth="175.0" layoutX="62.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/6.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="143.0" prefHeight="148.0" prefWidth="282.0" text="Explora la gran variedad de tiquetes baratos que nuestro sistema tiene para ti. Disfruta de vuelos nacionales e internacionales y descubre cientos de destinos increíbles." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="807.0" layoutY="481.0" prefHeight="300.0" prefWidth="300.0" styleClass="box" stylesheets="@../../assets/styles/vendor.css">
+         <children>
+            <ImageView fitHeight="124.0" fitWidth="168.0" layoutX="68.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/img/5.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="9.0" layoutY="150.0" prefHeight="135.0" prefWidth="282.0" text="Su seguridad es nuestra prioridad. Visite nuestro Centro de Información COVID-19 y conozca las medidas de seguridad, la flexibilidad y los requisitos." textAlignment="CENTER" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

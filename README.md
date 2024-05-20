@@ -17,27 +17,8 @@ This repository contains projects and practical exercises for university student
 To get started with the exercises, follow these steps:
 
 1. Install [Java](https://adoptium.net/es/temurin/releases/?variant=openjdk11) version 11 or higher
-2. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+2. Install [NetBeans](https://netbeans.apache.org/front/main/download/)
 3. Download or clone this repository to your local machine
-
-## Content and Topics
-
-This repository is structured as follows:
-
-### 1. Fundamentals
-
-- #### Getting Started
-    - [Section 1](https://github.com/ebercalderon/university-projects/tree/main/hello/world) - Hello world
-
-### 2. ...
-
-- #### ...
-  - [...]() - ...
-
-
-## Screenshots
-
-- Screenshots will be added soon
 
 ## Author
 

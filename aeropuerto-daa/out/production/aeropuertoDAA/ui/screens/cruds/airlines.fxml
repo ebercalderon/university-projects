@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="userCrud" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="835.0" prefWidth="1195.0" style="-fx-background-color: #fff;" styleClass="main-dash" stylesheets="@../../assets/styles/vendor.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="90.0" layoutY="85.0" prefHeight="696.0" prefWidth="1010.0" styleClass="box">
+         <children>
+            <TableView fx:id="airlineTbl" layoutX="81.0" layoutY="81.0" prefHeight="577.0" prefWidth="848.0" stylesheets="@../../assets/styles/table.css">
+               <columns>
+                  <TableColumn fx:id="nameCol" prefWidth="281.0" text="Nombre de aerolínea" />
+                  <TableColumn fx:id="logoCol" minWidth="0.0" prefWidth="228.0" text="Logotipo" />
+                  <TableColumn fx:id="actionsCol" prefWidth="190.0" text="Acciones" />
+               </columns>
+            </TableView>
+            <Button layoutX="105.0" layoutY="25.0" mnemonicParsing="false" onAction="#newAirline" prefHeight="46.0" prefWidth="231.0" styleClass="button-menu" text="Nueva Aerolínea" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/img/window_secured_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="105.0" layoutY="658.0" prefHeight="20.0" prefWidth="249.0" text="Mostrando 16 resultados de 40" textFill="#8d8d8d" />
+            <Button layoutX="590.0" layoutY="25.0" mnemonicParsing="false" onAction="#importInfo" prefHeight="46.0" prefWidth="146.0" styleClass="button2" text="Importar" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/img/protect_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="750.0" layoutY="25.0" mnemonicParsing="false" onAction="#exportInfo" prefHeight="46.0" prefWidth="146.0" text="Exportar" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../assets/img/increase_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+      <Separator layoutY="53.0" prefHeight="9.0" prefWidth="1195.0" />
+      <Label layoutX="42.0" layoutY="10.0" styleClass="menu-label" text="Detalles de la aerolínea" />
+   </children>
+</AnchorPane>
